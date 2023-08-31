@@ -1,10 +1,31 @@
 # Guide to Integrating Algolia and Contentful with React JS
 
-## Base Outline
+This repo outlines the needed setup to integrate Algolia and Contentful with React JS.
 
-1. Creating the Webhook in Contentful for update/publish events
-2. Code implementation for the webhook endpoint (NextJS API endpoints)
-3. React Project setup
-4. React Contentful service setup
-5. React Algolia setup (using something minimal like [swr](https://www.npmjs.com/package/swr))
-6. React Algolia implementation to show a catalog-like page.
+You can take a look at the official blog post [here](https://www.contentful.com/blog/integrating-algolia-contentful-react-js/), which has the step-by-step explanation!
+
+## Getting started
+
+1. Install dependencies
+
+    ```bash
+    pnpm install
+    ```
+
+2. Environment variables
+
+    Duplicate the `.env.example` file and rename it to `.env`. Then make sure to set the correct value to each variable.
+
+3. Developing
+
+    ```bash
+    pnpm dev
+    ```
+
+## Author
+
+[Ignacio Miranda Figueroa](https://www.linkedin.com/in/ignacio-miranda-figueroa/)
+
+## License
+
+[MIT](./LICENSE)
